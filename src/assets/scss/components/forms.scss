@@ -1,0 +1,48 @@
+.form {
+  max-width: 100%;
+  &__input {
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+    color: #60646D;
+    background-color: transparent;
+    box-sizing: border-box;
+    max-width: 100%;
+    &::placeholder {
+      color: #60646D;
+    }
+    &:focus, &:active {
+      outline: none;
+    }
+  }
+  &__submit {
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 2px solid #DE4D4F;
+    border-radius: 3px;
+    color: #000000;
+    font-family: $bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: $trans;
+    cursor: pointer;
+    &:hover {
+      color: #fff;
+      background-color: #DE4D4F;
+    }
+  }
+  &__conf {
+    font-size: 14px;
+    text-align: center;
+    a {
+      color: #000;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

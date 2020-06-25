@@ -1,0 +1,8 @@
+export default {
+      id: "w-04-usage",
+      viewBox: "0 0 100 80",
+      url: __webpack_public_path__ + "/home/rooney/pageProofs/shtrih-st/src/assets/img/svg/w-04.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

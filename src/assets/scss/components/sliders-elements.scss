@@ -1,0 +1,53 @@
+.carousel {
+  &__btn {
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    border: 0;
+    transition: $trans;
+    cursor: pointer;
+
+    &_prev {
+      left: -30px;
+    }
+
+    &_next {
+      right: -30px;
+    }
+
+    svg {
+      stroke: #4A4A49;
+      transition: $trans;
+    }
+
+    &:hover svg {
+      stroke: #DE4D4F;
+    }
+
+    &:focus, &:active {
+      outline: none;
+      border: 0;
+    }
+
+    &.slick-disabled {
+      cursor: default;
+
+      svg {
+        stroke: grey;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .carousel {
+    &__btn {
+      &_prev {
+        left: -10px;
+      }
+      &_next {
+        right: -10px;
+      }
+    }
+  }
+}

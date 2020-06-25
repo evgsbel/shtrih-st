@@ -1,0 +1,8 @@
+export default {
+      id: "icon-in-usage",
+      viewBox: "0 0 17 17",
+      url: __webpack_public_path__ + "/home/rooney/pageProofs/shtrih-st/src/assets/img/svg/icon-in.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

@@ -1,0 +1,57 @@
+@media (max-width: 1199.98px) {
+  .feedback__input {
+    width: 30%;
+  }
+  .why__item {
+    width: 48%;
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 425.98px) {
+  .header {
+    &__wr {
+      justify-content: center;
+    }
+    &__btn {
+      margin-bottom: 20px;
+    }
+  }
+  .timer {
+    &__colon:nth-child(4) {
+      display: none;
+    }
+    &__item {
+      margin-bottom: 20px;
+    }
+  }
+  .stocks__item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .feedback__input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .why__item {
+    width: 100%;
+  }
+  .social {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 320.98px) {
+  .timer__colon {
+    display: none;
+  }
+  .timer__wrapper {
+    justify-content: center;
+  }
+  .timer__ttl {
+    font-size: 60px;
+  }
+  .timer__wrapper {
+    justify-content: center;
+  }
+}
