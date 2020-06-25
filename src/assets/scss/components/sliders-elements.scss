@@ -6,7 +6,7 @@
     border: 0;
     transition: $trans;
     cursor: pointer;
-
+    z-index: 1;
     &_prev {
       left: -30px;
     }
@@ -43,10 +43,10 @@
   .carousel {
     &__btn {
       &_prev {
-        left: -10px;
+        left: 0;
       }
       &_next {
-        right: -10px;
+        right: 0;
       }
     }
   }
