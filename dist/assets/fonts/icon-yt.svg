@@ -1,8 +1,0 @@
-export default {
-      id: "icon-yt-usage",
-      viewBox: "0 0 22 16",
-      url: __webpack_public_path__ + "/home/rooney/pageProofs/shtrih-st/src/assets/img/svg/icon-yt.svg",
-      toString: function () {
-        return this.url;
-      }
-    }
