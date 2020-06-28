@@ -43,18 +43,33 @@
   .members__item {
     margin: 0;
   }
+  .social {
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: center;
+    width: 100%;
+  }
 }
-@media (max-width: 320.98px) {
+
+@media (max-width: 375.98px) {
+  .timer__item {
+    width: 100%;
+  }
+  .timer__ttl {
+    font-size: 60px;
+  }
   .timer__colon {
     display: none;
   }
   .timer__wrapper {
     justify-content: center;
   }
+  .timer__num {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 320.98px) {
   .timer__ttl {
     font-size: 60px;
-  }
-  .timer__wrapper {
-    justify-content: center;
   }
 }
